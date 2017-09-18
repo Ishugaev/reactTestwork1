@@ -1,7 +1,7 @@
 //full_name, html_url, description, language, owner.login, owner.avatar_url
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-class RepositoryInfo extends Component {
+class RepositoryInfo extends PureComponent {
     render() {
         return (
             <div className="col">

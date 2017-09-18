@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-class Repository extends Component {
+class Repository extends PureComponent {
     onClick = () => {
         this.props.onClick(this.props.repository.name);
     };

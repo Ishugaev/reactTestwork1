@@ -1,7 +1,7 @@
-import React,    { Component } from 'react';
+import React,    { PureComponent } from 'react';
 import Repository from './Repository';
 
-class RepositoryList extends Component {
+class RepositoryList extends PureComponent {
     render() {
         return (
             <nav className="col">
